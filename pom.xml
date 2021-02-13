@@ -9,7 +9,7 @@
   <packaging>war</packaging>
 
   <name>Servlet Web Application</name>
-  <url>https://mneiferbag.wordpress.com/</url>
+  <url>https://mneifercons.wordpress.com/</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
