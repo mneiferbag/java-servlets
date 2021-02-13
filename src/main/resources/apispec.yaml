@@ -1,0 +1,35 @@
+openapi: 3.0.1
+info:
+  title: Sample Service
+  version: 0.1.0
+servers:
+- url: http://localhost:8080/
+paths:
+  /hello/{type}:
+    get:
+      parameters:
+      - name: type
+        in: path
+        required: true
+        schema:
+          type: array
+          items:
+            type: string
+            default: world
+            enum:
+            - person
+            - world
+      - name: name
+        in: query
+        schema:
+          type: string
+      responses:
+        200:
+          description: Successful operation
+          content:
+            application/text:
+              schema:
+                type: string
+        400:
+          description: Invalid parameter value
+          content: {}
