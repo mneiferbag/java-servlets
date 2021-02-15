@@ -4,7 +4,7 @@ Add to $TOMCAT_HOME/conf/tomcat-users.xml following roles and user.
 
     <role rolename="manager-gui"/>
     <role rolename="manager-script"/>
-    <user username="admin" password="choosen-password" roles="manager-gui,manager-script">
+    <user username="admin" password="choosen-password" roles="manager-gui,manager-script"/>
 
 Add Server configuration to Tomcat Maven plugin in project POM.
 
