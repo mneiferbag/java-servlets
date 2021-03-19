@@ -1,0 +1,10 @@
+.table {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.label {
+  grid-column: 1 / 2;
+}
+.input {
+  grid-column: 2 / 3;
+}
