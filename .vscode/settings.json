@@ -1,0 +1,8 @@
+{
+    "maven.terminal.favorites": [
+        {
+            "alias": "Tomcat Redeploy",
+            "command": "tomcat7:redeploy"
+        }
+    ]
+}
