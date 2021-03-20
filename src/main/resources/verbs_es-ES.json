@@ -1,0 +1,20 @@
+[
+    {
+        "name": "trabajar",
+        "first": "trabajo",
+        "second": "trabajas",
+        "third": "trabaja",
+        "firsts": "trabajamos",
+        "seconds": "trabajais",
+        "thirds": "trabajan"
+    },
+    {
+        "name": "leer",
+        "first": "leo",
+        "second": "lees",
+        "third": "lee",
+        "firsts": "leemos",
+        "seconds": "leeis",
+        "thirds": "leen"
+    }
+]
