@@ -17,6 +17,9 @@ paths:
               $ref: '#/components/schemas/Verb'
         required: true
       responses:
+        200:
+          description: Successful operation
+          content: {}
         405:
           description: Invalid input
           content: {}
@@ -71,6 +74,9 @@ paths:
               $ref: '#/components/schemas/Verb'
         required: true
       responses:
+        200:
+          description: Successful operation
+          content: {}
         400:
           description: Invalid parameter value
           content: {}
@@ -88,6 +94,9 @@ paths:
         schema:
           type: string
       responses:
+        200:
+          description: Successful operation
+          content: {}
         400:
           description: Invalid parameter value
           content: {}

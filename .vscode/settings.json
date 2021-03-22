@@ -4,5 +4,6 @@
             "alias": "Tomcat Redeploy",
             "command": "tomcat7:redeploy"
         }
-    ]
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
 }
