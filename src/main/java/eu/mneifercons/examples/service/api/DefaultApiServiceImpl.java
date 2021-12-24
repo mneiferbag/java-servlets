@@ -1,17 +1,8 @@
-package de.mneifercons.examples.service.api;
+package eu.mneifercons.examples.service.api;
 
-import java.io.InputStream;
-import java.io.OutputStream;
 import java.util.List;
-import java.util.Map;
-import javax.ws.rs.*;
-import javax.ws.rs.core.Response;
-import org.apache.cxf.jaxrs.model.wadl.Description;
-import org.apache.cxf.jaxrs.model.wadl.DocTarget;
 
-import de.mneifercons.examples.service.model.Verb;
-
-import org.apache.cxf.jaxrs.ext.multipart.*;
+import eu.mneifercons.examples.service.model.Verb;
 
 /**
  * Verbs Service

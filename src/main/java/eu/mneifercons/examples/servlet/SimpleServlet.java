@@ -3,7 +3,7 @@
  * Licensed under the MIT License.
  * See file LICENSE in project root directory.
  */
-package de.mneifercons.examples.servlet;
+package eu.mneifercons.examples.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -24,7 +24,7 @@ public final class SimpleServlet extends HttpServlet {
     final Logger logger = LoggerFactory.getLogger(SimpleServlet.class);
 
     @Override
-    public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         try {
             response.setContentType("text/plain; charset=utf-8");
 

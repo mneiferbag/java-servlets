@@ -1,40 +1,29 @@
-package de.mneifercons.examples.service.model;
-
-import javax.validation.constraints.*;
+package eu.mneifercons.examples.service.model;
 
 import io.swagger.v3.oas.annotations.media.Schema;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.JsonValue;
-import com.fasterxml.jackson.annotation.JsonCreator;
 
 public class Verb {
 
-    @Schema(description = "")
+    @Schema()
     private String name = null;
 
-    @Schema(description = "")
+    @Schema()
     private String first = null;
 
-    @Schema(description = "")
+    @Schema()
     private String second = null;
 
-    @Schema(description = "")
+    @Schema()
     private String third = null;
 
-    @Schema(description = "")
+    @Schema()
     private String firsts = null;
 
-    @Schema(description = "")
+    @Schema()
     private String seconds = null;
 
-    @Schema(description = "")
+    @Schema()
     private String thirds = null;
 
     /**
@@ -172,18 +161,15 @@ public class Verb {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append("class Verb {\n");
-
-        sb.append("    name: ").append(toIndentedString(name)).append("\n");
-        sb.append("    first: ").append(toIndentedString(first)).append("\n");
-        sb.append("    second: ").append(toIndentedString(second)).append("\n");
-        sb.append("    third: ").append(toIndentedString(third)).append("\n");
-        sb.append("    firsts: ").append(toIndentedString(firsts)).append("\n");
-        sb.append("    seconds: ").append(toIndentedString(seconds)).append("\n");
-        sb.append("    thirds: ").append(toIndentedString(thirds)).append("\n");
-        sb.append("}");
-        return sb.toString();
+        return "class Verb {\n" +
+                "    name: " + toIndentedString(name) + "\n" +
+                "    first: " + toIndentedString(first) + "\n" +
+                "    second: " + toIndentedString(second) + "\n" +
+                "    third: " + toIndentedString(third) + "\n" +
+                "    firsts: " + toIndentedString(firsts) + "\n" +
+                "    seconds: " + toIndentedString(seconds) + "\n" +
+                "    thirds: " + toIndentedString(thirds) + "\n" +
+                "}";
     }
 
     /**
