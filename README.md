@@ -45,3 +45,11 @@ List applications using manager web app text interface.
     * [Apache Tomcat](https://tomcat.apache.org/) servlet container
 * General
     * [Java Development Examples](https://github.com/mneiferbag/java-examples)
+
+## Tasks
+
+- Add integration tests
+- Gradle
+  - https://docs.gradle.org/current/userguide/migrating_from_maven.html#migmvn:build_lifecycle 
+  - https://docs.gradle.org/current/userguide/migrating_from_maven.html#migmvn:integration_tests 
+  - https://docs.gradle.org/current/userguide/java_testing.html#sec:configuring_java_integration_tests 
