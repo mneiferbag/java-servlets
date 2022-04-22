@@ -41,10 +41,10 @@ List applications using manager web app text interface.
 
 ## Links
 
-* Apache
-    * [Apache Tomcat](https://tomcat.apache.org/) servlet container
-* General
-    * [Java Development Examples](https://github.com/mneiferbag/java-examples)
+- Apache
+  - [Apache Tomcat](https://tomcat.apache.org/) servlet container
+- General
+  - [Java Development Examples](https://github.com/mneiferbag/java-examples)
 
 ## Tasks
 
