@@ -43,13 +43,14 @@ List applications using manager web app text interface.
 
 - Apache
   - [Apache Tomcat](https://tomcat.apache.org/) servlet container
+  - [Eclipse Jetty](https://www.eclipse.org/jetty/) servlet container
+- Testing
+  - [JUnit](https://junit.org/)
+  - [Mockito framework site](https://site.mockito.org/)
+  - [REST Assured](https://rest-assured.io/)
 - General
   - [Java Development Examples](https://github.com/mneiferbag/java-examples)
 
 ## Tasks
 
-- Add integration tests
-- Gradle
-  - https://docs.gradle.org/current/userguide/migrating_from_maven.html#migmvn:build_lifecycle 
-  - https://docs.gradle.org/current/userguide/migrating_from_maven.html#migmvn:integration_tests 
-  - https://docs.gradle.org/current/userguide/java_testing.html#sec:configuring_java_integration_tests 
+- Nil
