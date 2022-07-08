@@ -1,0 +1,15 @@
+#
+# Copyright (c) 2022 Markus Neifer
+# Licensed under the MIT License.
+# See file LICENSE in project root directory.
+#
+# Set update schedule for GitHub Actions
+# See https://docs.github.com/en/code-security/dependabot/working-with-dependabot/keeping-your-actions-up-to-date-with-dependabot
+
+version: 2
+updates:
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
