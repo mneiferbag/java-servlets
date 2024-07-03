@@ -4,7 +4,8 @@ Licensed under the MIT License. See file LICENSE.
 
 Collection of Java servlets examples. Examples include code written in Java.
 
-[![CodeQL](https://github.com/mneiferbag/java-servlets/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/mneiferbag/java-servlets/actions/workflows/codeql-analysis.yml)
+[![CodeQL](https://github.com/mneiferbag/java-servlets/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/mneiferbag/java-servlets/actions/workflows/codeql-analysis.yml) 
+[![Java CI with Maven](https://github.com/mneiferbag/java-servlets/actions/workflows/maven.yml/badge.svg)](https://github.com/mneiferbag/java-servlets/actions/workflows/maven.yml)
 
 ## Apache Tomcat Configuration
 
