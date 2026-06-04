@@ -51,7 +51,3 @@ List applications using manager web app text interface.
   - [REST Assured](https://rest-assured.io/)
 - General
   - [Java Development Examples](https://github.com/mneiferbag/java-examples)
-
-## Tasks
-
-- Nil

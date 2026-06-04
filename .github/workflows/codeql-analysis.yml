@@ -35,11 +35,11 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v6
 
-    - name: Setup Java JDK
+    - name: Set up JDK
       uses: actions/setup-java@v5
       with:
         distribution: 'temurin'
-        java-version: '17'
+        java-version: '21'
         java-package: jdk
 
     # Initializes the CodeQL tools for scanning.
