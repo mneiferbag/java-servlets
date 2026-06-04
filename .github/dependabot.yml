@@ -3,12 +3,18 @@
 # Licensed under the MIT License.
 # See file LICENSE in project root directory.
 #
+# https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+# https://containers.dev/guide/dependabot
+#
 # Set update schedule for GitHub Actions
 # See https://docs.github.com/en/code-security/dependabot/working-with-dependabot/keeping-your-actions-up-to-date-with-dependabot
 
 version: 2
 updates:
-
+  - package-ecosystem: "devcontainers"
+    directory: "/"
+    schedule:
+      interval: weekly
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
