@@ -4,6 +4,7 @@ Licensed under the MIT License. See file LICENSE.
 
 Collection of Java servlets examples. Examples include code written in Java.
 
+[![Dependabot Updates](https://github.com/mneiferbag/java-servlets/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/mneiferbag/java-servlets/actions/workflows/dependabot/dependabot-updates)
 [![CodeQL](https://github.com/mneiferbag/java-servlets/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/mneiferbag/java-servlets/actions/workflows/codeql-analysis.yml) 
 [![Java CI with Maven](https://github.com/mneiferbag/java-servlets/actions/workflows/maven.yml/badge.svg)](https://github.com/mneiferbag/java-servlets/actions/workflows/maven.yml)
 
